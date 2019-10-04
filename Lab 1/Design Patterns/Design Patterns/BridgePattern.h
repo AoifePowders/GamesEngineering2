@@ -1,5 +1,9 @@
 #include <iostream>
+//bridge pattern is meant to decouple abstraction.
+//similar to the abstract factory but the implementation
+//of fuctions is placed in a different class.
 
+//drawapi is the bridge connecting the fuction inplementeation to the class
 class DrawAPI
 {
 public:

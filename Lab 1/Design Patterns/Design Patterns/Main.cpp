@@ -18,10 +18,9 @@ int main() {
 		characters[i]->draw();
 		characters[i]->destroy();
 	}
-	characters[0]->draw();
+
 	//HANDLE CLASS
 	//BRIDGE PATTERN
-
 	HandleToCharacter handle;
 	handle->Print();
 

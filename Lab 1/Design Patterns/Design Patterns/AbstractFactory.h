@@ -1,5 +1,6 @@
 #include <iostream>
-
+//abstract factory is a factory that creates 
+//related objects without specifying their class
 class Character {
 
 public:
@@ -31,12 +32,15 @@ public:
 	}
 };
 
+//contains virtual functions
 class Factory {
 public:
 	virtual Character* createPlayer() = 0;
 	virtual Character* createOpponents() = 0;
 };
 
+//virtual functions implemented
+//returns pointer to class created
 class CharacterFactory : public Factory {
 public:
 	Character* createPlayer() {
