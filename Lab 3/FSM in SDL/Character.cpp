@@ -1,11 +1,11 @@
 #include "Character.h"
 
-void Character::pressQ()
+void Character::pressJump()
 {
 	std::cout << "Q" << std::endl;
 }
 
-void Character::pressW()
+void Character::pressWalk()
 {
 	std::cout << "W" << std::endl;
 }

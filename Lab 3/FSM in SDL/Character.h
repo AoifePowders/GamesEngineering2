@@ -3,8 +3,8 @@
 class Character
 {
 public:
-	void pressQ();
-	void pressW();
+	void pressJump();
+	void pressWalk();
 	void pressE();
 	void pressR();
 };

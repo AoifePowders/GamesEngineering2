@@ -4,6 +4,7 @@
 #include <iostream>
 #include "InputHandler.h"
 #include "Character.h"
+#include "FSM.h"
 
 class Game
 {
@@ -19,9 +20,11 @@ public:
 	void clean();
 
 	bool running();
+	void loadTextures();
 
 	InputHandler* inputHandler;
 	Character* character;
+	FSM* finiteStateMachine;
 
 private:
 	bool isRunning;
@@ -30,4 +33,17 @@ private:
 	bool exit;
 	std::vector<Command*> commandQueue;
 
+	SDL_Surface* image;
+	SDL_Texture* texture;
+
+	SDL_Rect rect;
+	SDL_Rect positionRect;
+
+	int textureWidth;
+	int textureHeight;
+	int frameWidth;
+	int frameHeight;
+
+	const int FPS = 60;
+	int frameTime = 0;
 };

@@ -2,6 +2,7 @@
 #include <vector>
 #include <SDL.h>
 #include "character.h"
+#include "FSM.h"
 
 enum InputType
 {
@@ -26,7 +27,7 @@ class Command
 {
 public:
 	virtual ~Command() {}
-	virtual void execute(Character* character) = 0;
+	virtual void execute(FSM* fsm) = 0;
 	virtual InputType get_input_type() = 0;
 };
 
@@ -34,10 +35,8 @@ class InputHandler
 {
 private:
 	// Pointers to all commands
-	Command* pressQ;
-	Command* pressW;
-	Command* pressE;
-	Command* pressR;
+	Command* pressJump;
+	Command* pressWalk;
 
 	std::map <int, Command*> commands;
 
@@ -58,33 +57,18 @@ public:
 	InputHandler();
 	~InputHandler();
 	bool fill(std::vector<Command*>& command_queue);
-	void configure(int key, Command* command);
 };
 
-class Q : public Command
+class Jump : public Command
 {
 public:
-	void execute(Character* character) { character->pressQ(); }
+	void execute(FSM* fsm) { fsm->jumping(); }
 	InputType get_input_type() { return STATE; }
 };
 
-class W : public Command
+class Walk : public Command
 {
 public:
-	void execute(Character* character) { character->pressW(); }
-	InputType get_input_type() { return STATE; }
-};
-
-class E : public Command
-{
-public:
-	void execute(Character* character) { character->pressE(); }
-	InputType get_input_type() { return STATE; }
-};
-
-class R : public Command
-{
-public:
-	void execute(Character* character) { character->pressR(); }
+	void execute(FSM* fsm) { fsm->walking(); }
 	InputType get_input_type() { return STATE; }
 };
