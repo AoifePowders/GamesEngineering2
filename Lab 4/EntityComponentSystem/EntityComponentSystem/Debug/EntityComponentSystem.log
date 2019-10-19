@@ -1,0 +1,21 @@
+﻿  Game.cpp
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(55,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(57,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(73,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(100,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(102,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(120,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(137,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(146,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(148,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(162,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(186,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(188,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(205,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(207,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(207,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(213,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(215,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\ECS.h(215,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\EntityComponentSystem\Game.cpp(88,2): warning C4060: switch statement contains no 'case' or 'default' labels
+  EntityComponentSystem.vcxproj -> C:\Users\Aoife\Desktop\GamesEngineering2\Lab 4\EntityComponentSystem\Debug\EntityComponentSystem.exe
