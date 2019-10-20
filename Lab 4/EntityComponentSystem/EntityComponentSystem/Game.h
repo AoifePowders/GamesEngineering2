@@ -25,6 +25,9 @@ public:
 
 	//shared pointer?
 	Entity* player = new Entity();
+	Entity* dog = new Entity();
+	Entity* cat = new Entity();
+	Entity* alien = new Entity();
 
 	//Component
 	std::shared_ptr<Component> hc = std::make_shared<HealthComponent>();
@@ -34,8 +37,9 @@ public:
 	HealthSystem hs;
 	PositionSystem ps;
 	RenderSystem rs;
-
 	ControlSystem cs;
+
+
 
 private:
 	bool isRunning = false;

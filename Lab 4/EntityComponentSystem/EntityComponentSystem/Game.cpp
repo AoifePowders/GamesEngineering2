@@ -43,13 +43,26 @@ void Game::init(const char* title, int xPos, int yPos, int width, int height, bo
 
 	player->addComponents(hc);
 	hs.addEntity(*player);
+	//dog->addComponents(hc);
+	//hs.addEntity(*dog);
+	//alien->addComponents(hc);
+	//hs.addEntity(*alien);
 	hs.init();
 
 	player->addComponents(pc);
 	ps.addEntity(*player);
+	//cat->addComponents(pc);
+	//ps.addEntity(*cat);
+	//dog->addComponents(pc);
+	//ps.addEntity(*dog);
+	//alien->addComponents(pc);
+	//ps.addEntity(*alien);
 	ps.init();
 
 	rs.addEntity(*player);
+	//rs.addEntity(*cat);
+	//rs.addEntity(*dog);
+	//rs.addEntity(*alien);
 	rs.init();
 
 	cs.addEntity(*player);
