@@ -12,7 +12,7 @@ int NO_BURGERS = 20;
 
 void produce()
 {
-	for (int i = 0; i < NO_BURGERS; i++)
+	for (int i = 0; i <=  NO_BURGERS; i++)
 	{
 		std::cout << "Burger "<< i << " ready"<< std::endl;
 		//push each burger to queue
